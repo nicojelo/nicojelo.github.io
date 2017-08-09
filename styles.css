@@ -1,5 +1,8 @@
 body {
-    background-color: powderblue;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100% 100%;
 }
 
 img {
@@ -10,12 +13,25 @@ img {
 }
 
 div.box {
-    border: 25px solid blue;
+    border: 10px solid rgb(102, 51, 0);
+
+    background-color: rgba(255, 179, 102,0.5);
+    height: 100%;
+
+
 }
 
 div.text {
+	padding-top: 30px;
+	text-align: justify;
 }
 
 h1{
 	font-size: 80px;
+	text-align: center;
+    font-family: "Monaco", Monaco, monospace;
+}
+
+h3{
+	font-size: 25px;
 }
